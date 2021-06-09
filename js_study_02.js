@@ -1,4 +1,5 @@
-//숫자
+//1.숫자
+console.log("1.숫자")
 var a=Math.pow(3,2)
 console.log(a)
 var b=Math.round(10,6)
@@ -13,7 +14,8 @@ var g=Math.round(100*Math.random());
 console.log(g)
 console.log("\n")
 
-//문자
+//2.문자
+console.log("2.문자")
 console.log("hello")//따옴표 사이에 있으면 문자
 console.log("hello'")
 console.log('hel\'lo')//이스케이프 문자
@@ -21,7 +23,8 @@ console.log(typeof(1))
 console.log(typeof("hi!"))
 console.log("\n")
 
-//문자의 연산
+//3.문자의 연산
+console.log("3.문자의 연산")
 console.log("hello"+"world")
 console.log(1+1)
 console.log("1"+"1")
