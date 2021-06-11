@@ -39,6 +39,7 @@ console.log("3.연산자")
 console.log(a==b)
 console.log(a==10)
 //특이 포인트
+//===은 완전히 같을때 사용!
 console.log(10=='10')
 console.log(10==='10')
 console.log("\n")
