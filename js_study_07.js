@@ -6,7 +6,7 @@ console.log(member[0]);
 console.log(member[1]);
 console.log(member[2]);
 console.log("\n")
-document.write('<br />');
+document.write('<br />');//html에서의 줄바꿈!
 
 //2.배열의 효용성 
 console.log("2.배열의 효용성")
@@ -32,3 +32,7 @@ for(i = 0; i < new_members.length; i++){
     document.write(new_members[i].toUpperCase());   
     document.write('<br />');
 }
+
+//document.write('<br />');//html에서의 줄바꿈!
+//(배열 이름).length:배열에 담긴 값의 개수 반환 
+// (배열이름)[i].toUpperCase():(배열이름)[i]에 담긴 문자를 대문자로 변환
