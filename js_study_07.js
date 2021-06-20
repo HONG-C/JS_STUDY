@@ -61,13 +61,14 @@ console.log(arr)
 console.log("5.배열의 조작-제거,정렬")
 var li=['a','f','g','d','c','k','e'];
 li.shift();//맨 앞에 요소 삭제
-console.log(li)
+document.write(li)
+document.write('<br />');
 li.pop();//맨 끝에 요소 삭제
-console.log(li)
+document.write(li)
 li.sort();
-console.log(li)
+document.write(li)
 li.reverse();
-console.log(li)
+document.write(li)
 
 //원하는 방식으로 정렬하고 싶을땐 생활코딩에서 데이터 값을 찾아서 하기!
 //array.sort(sortfunc):요기서 sortfunc을 정의하여 입맛대로 정렬가능
